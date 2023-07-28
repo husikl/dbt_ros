@@ -1,0 +1,6 @@
+
+<launch>
+<node pkg="behaviortree_ros" type="bt_executor" name="bt_executor"   output = "screen"/>
+<!-- <node pkg="behaviortree_ros" type="pddl_to_bt_service" name="pddl_to_bt_service"   output = "screen"/> -->
+
+</launch>

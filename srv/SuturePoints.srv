@@ -1,0 +1,11 @@
+geometry_msgs/Pose insertion_point
+geometry_msgs/Pose extraction_point
+string type
+int32 id
+string location
+---
+bool inserted
+bool extracted
+bool sutured
+bool close_to
+

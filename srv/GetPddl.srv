@@ -1,0 +1,6 @@
+string type #update or create a new one
+string[] init_state #initial state to set for the tree
+string[] goal_state #failed xml node to create or to update with
+FdInput input
+---
+string[] plan

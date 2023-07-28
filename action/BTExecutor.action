@@ -1,0 +1,12 @@
+#goal definition
+string behavior_tree
+---
+#result definition
+string tree_status
+string failed_node_name
+string tree_to_update
+string[] failedNodes
+---
+#feedback
+string tree_status
+

@@ -1,0 +1,36 @@
+<package>
+  <name>dbt_ros</name>
+  <version>0.0.1</version>
+  <description>
+  Dynamic Behavior Tree generation based on BehaviorTree.CPP. library
+  </description>
+
+  <maintainer email="khusniddin@mein.nagoya-u.ac.jp">Khusniddin Fozilov</maintainer>
+
+  <license>TODO</license>
+
+  <author>Khusniddin Fozilov</author>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>behaviortree_cpp_v3</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>behaviortree_cpp_v3</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_generation</run_depend>
+
+  <build_depend>asar_hybrid_tmp</build_depend>
+  <run_depend>asar_hybrid_tmp</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

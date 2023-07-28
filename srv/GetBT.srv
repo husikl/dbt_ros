@@ -1,0 +1,12 @@
+# geometry_msgs/PoseStamped[] waypoints
+# geometry_msgs/PoseStamped[] visualSupport
+string type #update or create a new one
+string bt #initial tree, empty if type is new
+string goal_condition #failed xml node to create or to update with
+int16 runningId
+geometry_msgs/Point location
+string[] pddl_plan #pddl plan receieved to encode as bt
+string suture_point_id
+---
+string behavior_tree
+bool success
